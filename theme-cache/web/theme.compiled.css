@@ -3974,13 +3974,13 @@
   /*## Default Bootstrap Labels, not a widget in the Modeler (used in components/labels) */
   /* Background Color */
   --label-default-bg: #ced0d3;
-  --label-primary-bg: #264ae5;
+  --label-primary-bg: red;
   --label-success-bg: #3cb33d;
   --label-warning-bg: #eca51c;
   --label-danger-bg: #e33f4e;
   /* Border Color */
   --label-default-border-color: #ced0d3;
-  --label-primary-border-color: #264ae5;
+  --label-primary-border-color: red;
   --label-success-border-color: #3cb33d;
   --label-warning-border-color: #eca51c;
   --label-danger-border-color: #e33f4e;
@@ -3994,7 +3994,7 @@
   /*## Default variables for Groupbox Widget (used in components/groupbox) */
   /* Background Color */
   --groupbox-default-bg: #ced0d3;
-  --groupbox-primary-bg: #264ae5;
+  --groupbox-primary-bg: red;
   --groupbox-success-bg: #3cb33d;
   --groupbox-warning-bg: #eca51c;
   --groupbox-danger-bg: #e33f4e;
@@ -4010,7 +4010,7 @@
   /*## Extended variables for Groupbox Widget (used in components/groupbox) */
   /* Text and Border Color */
   --callout-default-color: #6c717e;
-  --callout-primary-color: #264ae5;
+  --callout-primary-color: red;
   --callout-success-color: #3cb33d;
   --callout-warning-color: #eca51c;
   --callout-danger-color: #e33f4e;
@@ -4023,9 +4023,9 @@
   /*== Timeline */
   /*## Extended variables for Timeline Widget */
   /* Colors */
-  --timeline-icon-color: #264ae5;
+  --timeline-icon-color: red;
   --timeline-border-color: #ced0d3;
-  --timeline-event-time-color: #264ae5;
+  --timeline-event-time-color: red;
   /* Sizes */
   --timeline-icon-size: 18px;
   --timeline-image-size: 36px;
@@ -19696,7 +19696,7 @@ body[dir=rtl] .mx-header-right {
   background-color: #e9edfc;
 }
 .groupbox-callout > .mx-groupbox-header {
-  color: #264ae5;
+  color: red;
 }
 .groupbox-callout .mx-groupbox-header + .mx-groupbox-body {
   padding-top: 0;
@@ -25314,6 +25314,7 @@ html div.dj_ios .widget-switch.auto .widget-switch-btn-wrapper.checked.widget-sw
 }
 .layout-atlas .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a {
   padding: 16px;
+  background-color: #4a4a4a;
 }
 .layout-atlas .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .glyphicon,
 .layout-atlas .region-sidebar .mx-navigationtree .navbar-inner > ul > li > a .mx-icon-lined,

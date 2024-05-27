@@ -453,14 +453,14 @@ $wizard-visited-border-color: $wizard-visited !default;
 
 // Background Color
 $label-default-bg: $brand-default !default;
-$label-primary-bg: $brand-primary !default;
+$label-primary-bg: red !default;
 $label-success-bg: $brand-success !default;
 $label-warning-bg: $brand-warning !default;
 $label-danger-bg: $brand-danger !default;
 
 // Border Color
 $label-default-border-color: $brand-default !default;
-$label-primary-border-color: $brand-primary !default;
+$label-primary-border-color: red !default;
 $label-success-border-color: $brand-success !default;
 $label-warning-border-color: $brand-warning !default;
 $label-danger-border-color: $brand-danger !default;
@@ -477,7 +477,7 @@ $label-danger-color: #fff !default;
 
 // Background Color
 $groupbox-default-bg: $gray-primary !default;
-$groupbox-primary-bg: $brand-primary !default;
+$groupbox-primary-bg: red !default;
 $groupbox-success-bg: $brand-success !default;
 $groupbox-warning-bg: $brand-warning !default;
 $groupbox-danger-bg: $brand-danger !default;
@@ -496,7 +496,7 @@ $groupbox-white-color: $font-color-default !default;
 
 // Text and Border Color
 $callout-default-color: $font-color-default !default;
-$callout-primary-color: $brand-primary !default;
+$callout-primary-color: red !default;
 $callout-success-color: $brand-success !default;
 $callout-warning-color: $brand-warning !default;
 $callout-danger-color: $brand-danger !default;
@@ -511,9 +511,9 @@ $callout-danger-bg: $color-danger-lighter !default;
 //== Timeline
 //## Extended variables for Timeline Widget
 // Colors
-$timeline-icon-color: $brand-primary !default;
+$timeline-icon-color: red !default;
 $timeline-border-color: $border-color-default !default;
-$timeline-event-time-color: $brand-primary !default;
+$timeline-event-time-color: red !default;
 
 // Sizes
 $timeline-icon-size: 18px !default;
